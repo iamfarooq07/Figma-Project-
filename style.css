@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 75px;
+}
+
+.icon {
+    margin-left: -50px;
+}
+
+.nav {
+    /* border: 1px solid red; */
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.nav a:hover {
+    border-bottom: 3px solid black;
+    color: black;
+}
+
+.btn {
+    width: 160px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.head {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    /* border: 1px solid rosybrown;  */
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+.para {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.btn1 {
+    width: 210px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.right {
+    /* border: 1px solid red; */
+    margin-right: 60px;
+}
+
+.logotypes {
+    /* border:1px solid red; */
+    margin-top: 100px;
+}
+
+/* ........section......... */
+.Section {
+    /* border: 1px solid red; */
+    display: flex;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 95px;
+}
+
+.sec1 {
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.sec2 {
+    margin-left: 50px;
+    /* border: 1px solid red; */
+    font-size: 15px;
+}
+
+/* ... */
+.cards {
+    /* border: 1px solid red; */
+    height: 50vh;
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.card1 {
+    border: 1px solid black;
+    width: 40vw;
+    height: 27vh;
+    background-color: #f3f3f3;
+    border-radius: 40px;
+    border-bottom: 6px solid black;
+}
+
+.cardlogo {
+    /* border: 1px solid red; */
+    width: 10vw;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 10px;
+    background-color: greenyellow;
+}
+
+.cardimg {
+    /* border: 1px solid red; */
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.cardlink {
+    /* border: 1px solid darkgreen; */
+    margin-top: 120px;
+    margin-left: 30px;
+    width: 10vw;
+}
+
+.cardlink h2,
+i {
+    margin: 10px;
+}
+
+.card2 {
+    border: 1px solid black;
+    width: 40vw;
+    height: 27vh;
+    background-color: greenyellow;
+    border-radius: 40px;
+    border-bottom: 6px solid black;
+}
+
+.cardlogo {
+    /* border: 1px solid red; */
+    width: 10vw;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 10px;
+    background-color: white;
+}
+
+.cardimg {
+    /* border: 1px solid red; */
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.cardlink {
+    /* border: 1px solid darkgreen; */
+    margin-top: 120px;
+    margin-left: 30px;
+    width: 10vw;
+}
+
+.cardlink h2,
+i {
+    margin: 10px;
+}
+
+
+/* .....main..... */
+
+
+.cont {
+    border-top: 2px solid black;
+    border: 1px solid black;
+    border-bottom: 6px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin-left: 130px;
+    height: 120px;
+    border-radius: 50px;
+    margin-top: 90px;
+    background-color: #f3f3f3;
+}
+
+.cont1 {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.cont2 {
+    margin-right: 700px;
+    font-size: 20px;
+}
+
+.cont3 {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+/* ............. */
+
+
+.cont4 {
+    margin-right: 370px;
+    font-size: 20px;
+}
+
+.cont5 {
+    margin-right: 700px;
+    font-size: 20px;
+}
+
+.cont6 {
+    margin-right: 500px;
+    font-size: 20px;
+}
+
+.cont7 {
+    margin-right: 500px;
+    font-size: 20px;
+}
+
+.cont8 {
+    margin-right: 580px;
+    font-size: 20px;
+}
+
+/* .......boxs......... */
+
+
+.boxs {
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    background-color: #f3f3f3;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 68vh;
+    margin-left: 127px;
+    margin-top: 40px;
+}
+
+.boxcontact {
+    /* border: 1px solid black; */
+    float: left;
+    width: 42vw;
+    height: 50vh;
+}
+
+.box1 {
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+input[type="radio"] {
+    margin: 10px;
+    transform: scale(1.5);
+}
+
+.good1 {
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.good1 input {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.good1 input::placeholder {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.good2 {
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.good2 input {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.good2 input::placeholder {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.email {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.poor {
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.poor textarea {
+    width: 30vw;
+    height: 16vh;
+    border-radius: 10px;
+}
+
+.poor textarea::placeholder {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.msg {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.her {
+    border: 1px solid red;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.her:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transform: scale(1.0);
+}
+
+.boximg {
+    /* border: 1px solid red; */
+    background-color: #f3f3f3;
+    margin-right: 15px;
+    border-radius: 10px;
+
+}
+
+/* .................... */
+
+
+.footer {
+    border: 1px solid black;
+    width: 80vw;
+    height: 50vh;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom: none;
+    margin-left: 120px;
+    margin-top: 80px;
+    background-color: black;
+    color: greenyellow;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.logo1 {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.icon1 {
+    margin-left: 10px;
+}
+
+.nav1 {
+    /* border: 1px solid red; */
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nav1 a {
+    color: white;
+    margin: 20px;
+    /* border-bottom: 3px solid white; */
+}
+
+.nav1 a:hover {
+    color: #f3f3f3;
+    /* border: none; */
+    text-decoration: none;
+}
+
+.linked1 {
+    /* border: 1px solid white; */
+    font-size: 20px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.linked1 i {
+    margin-left: 20px;
+}
+
+.linked1 i:hover {
+    transform: scale(1.1);
+    font-size: 23px;
+}
+
+
+.tops {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    height: 60%;
+    margin-top: 30px;
+}
+
+.top {
+    color: white;
+    margin-left: 60px;
+}
+
+.top1 {
+    /* border: 1px solid b; */
+    background-color: greenyellow;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    width: 150px;
+    padding: 10px;
+}
+
+.top2 {
+    margin-top: 10px;
+    font: 15px;
+
+}
+
+.top3 {
+    margin-top: 10px;
+    font: 15px;
+
+}
+
+.top4 {
+    margin-top: 10px;
+    font: 15px;
+
+}
+
+.bottom {
+    /* border: 1px solid white; */
+    background-color: #292a32;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 38vw;
+    height: 14vh;
+    border-radius: 20px;
+}
+
+.my input {
+    width: 15vw;
+    height: 6vh;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.my input::placeholder {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.job {
+    width: 15vw;
+    height: 6vh;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    transition: all 0.2s ease-in-out;
+}
+
+.job:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    height: 8vh;
+    /* border: 1px solid white; */
+}
+
+.last1 {
+    font-size: 8px;
+    margin-left: 60px;
+    color: white;
+}
+
+.last2 {
+    font-size: 12px;
+    margin-right: 60px;
+}
+
+.last2 a {
+    color: white;
+}
+
+.last2 a:hover {
+    text-decoration: none;
+
+}
+
+
+/* x..............................................x */
+
+/* Tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 55%;
+    }
+
+    .head {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left {
+        margin-left: 0;
+    }
+
+    .right {
+        margin-right: 0;
+    }
+
+    .cards {
+        flex-direction: column;
+        height: auto;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card1,
+    .card2 {
+        width: 80vw;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .logo,
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .head {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxs {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .boxcontact,
+    .boximg {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .cont {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3 {
+        margin: 10px 0;
+    }
+
+    .bottom {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .my input,
+    .job {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 45%;
+    }
+
+    .logo {
+        flex-direction: column;
+    }
+
+    .head {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .right img {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .card1,
+    .card2 {
+        width: 90%;
+        height: auto;
+    }
+
+    .footer {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bottom {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .my input,
+    .job {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .last {
+        flex-direction: column;
+        text-align: center;
+    }
+}
